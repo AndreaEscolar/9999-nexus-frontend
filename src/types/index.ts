@@ -3,7 +3,7 @@ export interface Product {
   name: string
   price: number
   description?: string
-  image_path?: string
+  image_path?: string | null
   stock: number
   available: boolean
   category_id: number
